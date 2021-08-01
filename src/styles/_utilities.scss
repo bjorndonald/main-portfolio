@@ -1,0 +1,62 @@
+@import 'template/base.scss';
+@import 'template/fonts.scss';
+@import 'template/main.scss';
+@import 'template/vendor.scss';
+
+#root {
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  li {
+    font-family: 'poppins-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    padding: 1vw;
+    line-height: 2.4rem;
+    border-radius: 10px;
+    background-color: #c7c7c7;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+  }
+}
+
+.skill-list {
+  p {
+    margin: 0;
+  }
+  strong {
+    font-family: 'poppins-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+h6 {
+  margin: 0;
+}
+
+.section-intro {
+  p {
+    margin: 0;
+  }
+
+  .lead {
+    padding-left: 5rem;
+  }
+}

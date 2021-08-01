@@ -1,7 +1,7 @@
 import React from 'react'
 import { author_dob, author_email, author_name } from '../../utilities/Values'
 import profile_pic from './../../images/profile-pic.png'
-
+import cv from './../../utilities/cv.pdf'
 function About () {
   return (
     <section id='about'>
@@ -13,8 +13,8 @@ function About () {
           <div class='intro-info'>
             <img src={profile_pic} alt='Profile Picture' />
 
-            <p class='lead'>
-              I am a web and mobile developer have experience creating all sorts
+            <p style={{ textAlign: 'justify' }} class='lead'>
+              I am a web and mobile developer with experience creating all sorts
               of sites and apps; rebuilding, maintaining, or improving the
               frontend and backend of portfolio sites, e-commerce stores,
               informational sites, platforms for nonprofits, institutions,
@@ -27,8 +27,8 @@ function About () {
       <div class='row about-content'>
         <div class='col-six tab-full'>
           <h3>Profile</h3>
-          <p>
-            Here is a some personal information about me. If further information
+          <p style={{ textAlign: 'justify' }}>
+            Here is some personal information about me. If further information
             is required, that can be provided on request by email. Due to
             security concerns, I neglected to include my full address.
           </p>
@@ -56,7 +56,7 @@ function About () {
 
         <div class='col-six tab-full'>
           <h3>Skills</h3>
-          <p>
+          <p style={{ textAlign: 'justify' }}>
             I'm familiar with collaborating with teams worldwide bringing my
             skills and knowledge to help develop ideas. Here are the languages
             and frameworks I am most familiar with:
@@ -125,7 +125,7 @@ function About () {
           <a href='#contact' title='Hire Me' class='button stroke smoothscroll'>
             Hire Me
           </a>
-          <a href='#' title='Download CV' class='button button-primary'>
+          <a href={cv} title='Download CV' class='button button-primary'>
             Download CV
           </a>
         </div>

@@ -83,10 +83,10 @@ function Experience () {
               <div class='timeline-content'>
                 <h4>Crackle Nigeria Limited</h4>
                 <p>
-                  I aided the website development team by creating implementing
-                  widgets for their web products. The company used ASP.NET MVC
-                  for most of their projects but I mostly worked with HTML, CSS
-                  & JQuery to created
+                  I aided the website development team by creating and
+                  implementing widgets for their web products. The company used
+                  ASP.NET MVC for most of their projects but I mostly worked
+                  with HTML, CSS & JQuery.
                 </p>
               </div>
             </div>
@@ -114,12 +114,12 @@ function Experience () {
               <div class='timeline-content'>
                 <h4>Afe Babalola University</h4>
                 <p>
-                  I completed my bachelor's degree in Computer Engineering
-                  graduating with a Second Class Upper Honours. During my time
-                  in university, I applied myself in separate personal projects
-                  to help hone my skills which enabled me to gain an internship
-                  position in Crackle Nigeria Limited. I was also an active
-                  member of the school's robotics club.
+                  I completed my bachelor's degree in Computer Engineering,
+                  graduating with a Second Class Upper with Honours. During my
+                  time in the university, I applied myself in separate personal
+                  projects to help hone my skills which enabled me to gain an
+                  internship position in Crackle Nigeria Limited. I was also an
+                  active member of the school's robotics club.
                 </p>
               </div>
             </div>

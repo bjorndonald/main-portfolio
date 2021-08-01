@@ -40,6 +40,11 @@ export class Home extends Component {
     })
     // $('.owl-carousel').owlCarousel()
 
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+      e.preventDefault()
+      $.magnificPopup.close()
+    })
+
     $('.smoothscroll').on('click', function (e) {
       e.preventDefault()
 
@@ -70,8 +75,7 @@ export class Home extends Component {
 
   portfolioPopup = () => {
     // MaginificPopup.trigger('.item-wrap a', 'open')
-
-    $('.mfp-hide').toggle()
+    // $('.mfp-hide').toggle()
   }
 
   onInputChange = (val, type) => {

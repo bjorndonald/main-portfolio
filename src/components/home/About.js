@@ -14,8 +14,8 @@ function About () {
             <img src={profile_pic} alt='Profile Picture' />
 
             <p style={{ textAlign: 'justify' }} class='lead'>
-              I am a web and mobile developer with experience creating all sorts
-              of sites and apps; rebuilding, maintaining, or improving the
+              I am a web and mobile developer with experience creating different
+              kinds of sites and apps; rebuilding, maintaining, or improving the
               frontend and backend of portfolio sites, e-commerce stores,
               informational sites, platforms for nonprofits, institutions,
               fintechs, and more.
@@ -28,9 +28,9 @@ function About () {
         <div class='col-six tab-full'>
           <h3>Profile</h3>
           <p style={{ textAlign: 'justify' }}>
-            Here is some personal information about me. If further information
-            is required, that can be provided on request by email. Due to
-            security concerns, I neglected to include my full address.
+            Here is some personal information about myself. If further
+            information is required, that can be provided on request by email.
+            Due to security concerns, I neglected to include my full address.
           </p>
 
           <ul class='info-list'>

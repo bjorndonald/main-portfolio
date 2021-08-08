@@ -83,6 +83,9 @@ function About () {
               <li>
                 <h6>Wordpress</h6>
               </li>
+              <li>
+                <h6>React</h6>
+              </li>
             </ul>
 
             <p>
@@ -101,6 +104,9 @@ function About () {
               </li>
               <li>
                 <h6>MYSQL</h6>
+              </li>
+              <li>
+                <h6>EXPRESS</h6>
               </li>
             </ul>
 

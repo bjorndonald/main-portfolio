@@ -1,8 +1,8 @@
 import afrikan from './../images/afrikan.png'
 import covidafrik from './../images/ampleefi.png'
 import portfolio from './../images/portfolio.PNG'
-import procurement from './../images/procurement.jpg'
-import funds from './../images/funds.jpg'
+import procurement from './../images/procurement.jpeg'
+import funds from './../images/funds.jpeg'
 export const author_name = 'Bjorn-Donald Bassey'
 export const author_dob = 'April 24, 1997'
 export const author_email = 'bjorndonaldb@gmail.com'
@@ -52,5 +52,13 @@ export const portfolio_items = [
     types: ['Mobile Development', 'React Native'],
     description: `This is fintech app that facilitated payment with the use of qr codes.`,
     link: 'https://github.com/bjorndonald/funds'
+  },
+  {
+    id: 'modal-05',
+    title: 'Funds',
+    image: <img src={funds} alt='' />,
+    types: ['Web Development', 'Django'],
+    description: `This is the official website for the University of Calabar Teaching Hospital. This was created with Django for the backend and HTNL/CSS for the frontend. I also used jQuery to add features to the site.`,
+    link: 'https://www.ucthcalabar.gov.ng'
   }
 ]
